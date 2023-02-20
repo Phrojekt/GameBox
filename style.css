@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .GameBoxBody {
+    width: 300px;
+    height: 540px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .FirstContainer {
+    width: 300px;
+    height: 540px;
+    background: rgba(111,53,252,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .Second_Container {
+    width: 264px;
+    height: 232px;
+    background: rgba(34,34,34,1);
+    opacity: 1;
+    position: absolute;
+    top: 38px;
+    left: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+  }
+
+  .Screen {
+    width: 232px;
+    height: 184px;
+    background: rgba(139,195,74,1);
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+
+  .Buttons_Container {
+    display: flex;
+    justify-content: space-between;
+    width: 259px;
+    height: 189px;
+    position: relative;
+    top: 296px;
+    left: 23px;
+    overflow: hidden;
+  }
+  
+  .v10_16 {
+    width: 44px;
+    height: 45px;
+    background: rgba(34,34,34,1);
+    opacity: 1;
+    position: absolute;
+    top: 36px;
+    left: 135px;
+    border-radius: 50%;
+  }
+  .v10_17 {
+    width: 44px;
+    height: 45px;
+    background: rgba(34,34,34,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 99px;
+    border-radius: 50%;
+  }
+  .v12_18 {
+    width: 40px;
+    height: 40px;
+    background: rgba(34,34,34,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    overflow: hidden;
+  }
+  .v12_19 {
+    width: 40px;
+    height: 40px;
+    background: rgba(34,34,34,1);
+    opacity: 1;
+    position: absolute;
+    top: 59px;
+    left: 35px;
+    overflow: hidden;
+  }
+  .v12_20 {
+    width: 40px;
+    height: 40px;
+    background: rgba(34,34,34,1);
+    opacity: 1;
+    position: absolute;
+    top: 31px;
+    left: 70px;
+    overflow: hidden;
+  }
+  .v12_23 {
+    width: 40px;
+    height: 40px;
+    background: rgba(34,34,34,1);
+    opacity: 1;
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    overflow: hidden;
+  }
+  </style>
