@@ -14,7 +14,7 @@ body {
 .GameBoxBody {
     display: flex;
     flex-direction: column;
-    min-width: 300px;
+    width: 300px;
     height: 540px;
     opacity: 1;
     position: relative;
