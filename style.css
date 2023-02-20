@@ -20,7 +20,7 @@ body {
 }
 
 .FirstContainer {
-    width: 300px;
+    width: 100vw;
     height: 540px;
     background: rgba(111,53,252,1);
     opacity: 1;
