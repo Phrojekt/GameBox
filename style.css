@@ -6,12 +6,12 @@
 
 body {
     font-size: 14px;
+    background: #3C1B8C;
   }
 
 .GameBoxBody {
     width: 300px;
     height: 540px;
-    background: rgba(255,255,255,1);
     opacity: 1;
     position: relative;
     top: 0px;
@@ -99,6 +99,10 @@ body {
     opacity: 1;
 }
 
+.Button:active, .Button_A:active, .Button_B:active {
+    background: #000000;
+}
+
 .Button_UP {
     position: absolute;
     top: 0px;
@@ -129,4 +133,20 @@ body {
     left: 0px;
     overflow: hidden;
     border-radius: 0 10px 10px 0;
+}
+
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .FirstContainer {
+        border-style: solid;
+        border-radius: 0px 0px 60px 0px;
+        border-color: #000000;
+        border-width: 1px;
+    }
+
 }
