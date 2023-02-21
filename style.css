@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
     justify-content: center;
     align-content: center;
     font-size: 12px;
-    font-family: 'Press Start 2P', cursive;
     background: #3C1B8C;
 }
 
@@ -31,7 +31,7 @@ a {
 .FirstContainer {
     width: 100%;
     height: 540px;
-    background: rgba(111,53,252,1);
+    background: #6F35FC;
     opacity: 1;
     position: relative;
     overflow: hidden;
@@ -79,17 +79,17 @@ a {
     display: flex;
     justify-content: space-between;
     width: 260px;
-    height: 189px;
+    height: 200px;
     opacity: 1;
     position: relative;
     top: 296px;
-    left: 25px;
+    left: 20px;
     overflow: hidden;
 }
   
 .Button_A {
-    width: 44px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     background: rgba(34,34,34,1);
     opacity: 1;
     position: absolute;
@@ -100,8 +100,8 @@ a {
 }
 
 .Button_B {
-    width: 44px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     background: rgba(34,34,34,1);
     opacity: 1;
     position: absolute;
@@ -112,8 +112,8 @@ a {
 }
 
 .Button {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     background: rgba(34,34,34,1);
     opacity: 1;
     transition: box-shadow 0.2s ease-in-out;
@@ -124,10 +124,24 @@ a {
     box-shadow: none;
 }
 
+
+.DPAD {
+    position: absolute;
+    width: 38%;
+    height: 22%;
+    left: 16px;
+    top: 304px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #36275e;
+    background-color: #8349FE;
+}
+
 .Button_UP {
     position: absolute;
     top: 0px;
-    left: 45px;
+    left: 35px;
     overflow: hidden;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.85);
     border-radius: 0 0 10px 10px;
@@ -135,8 +149,8 @@ a {
 
 .Button_DOWN {
     position: absolute;
-    top: 85px;
-    left: 45px;
+    top: 75px;
+    left: 35px;
     overflow: hidden;
     box-shadow: 0px -2px 0px 0px rgba(0, 0, 0, 0.85);
     border-radius: 10px 10px 0px 0px;
@@ -144,8 +158,8 @@ a {
 
 .Button_RIGHT {
     position: absolute;
-    top: 42px;
-    left: 90px;
+    top: 38px;
+    left: 70px;
     overflow: hidden;
     box-shadow: -2px 0px 0px rgba(0, 0, 0, 0.85);
     border-radius: 10px 0 0 10px;
@@ -153,12 +167,27 @@ a {
 
 .Button_LEFT {
     position: absolute;
-    top: 42px;
+    top: 38px;
     left: 0px;
     overflow: hidden;
     box-shadow: 2px 0px 0px rgba(0, 0, 0, 0.85);
     border-radius: 0 10px 10px 0;
 }
+
+#btn-open-modal {
+    position: absolute;
+    top: 420px;
+    left: 90px;
+    transform: rotate(-40deg);
+    border-radius: 20px;
+    border-style: none;
+    background: rgba(34,34,34,1);
+    padding: 4px 8px;
+    font-size: 10px;
+}
+
+// ---------- MODAL 
+
 
 @media (min-width: 768px) {
 
