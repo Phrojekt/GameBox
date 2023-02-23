@@ -1,8 +1,12 @@
-const Modal = {
-    open(){document.querySelector('.ScreenModal').classList.add('active')}
-}
+const modal = document.querySelector('.ScreenModal');
 
-window.addEventListener("load", function() {
-    const selectedItem = document.getElementById('game1')
-    selectedItem.classList.add('selected');
-});
+const Modal = () => {
+    if(modal.classList.contains('active')) {
+        modal.classList.remove('active')
+    } else {
+        modal.classList.add('active')
+        const selectedItem = document.getElementById('game1')
+        selectedItem.classList.add('selected');
+    }
+
+}
