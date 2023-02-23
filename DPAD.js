@@ -26,7 +26,7 @@ function DPAD(event) {
                 nextItem.classList.add('selected');
             }
         } else {
-            console.log('Oi');
+            
         }
     } else if (event.target === ButtonUP) {
         if( modal.classList.contains('active')) {
@@ -38,7 +38,7 @@ function DPAD(event) {
             } 
         }
         else {
-            console.log('Não')
+            
         }
     }
 }
