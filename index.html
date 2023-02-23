@@ -7,6 +7,8 @@
     <title>GameBox</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="./GameList.js" defer></script>
+    <script src="./DPAD.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +24,17 @@
             <div class="VerticalLine2"></div>
         </div>
         <div class="Second_Container">
-            <div class="Screen"></div>
+            <div class="Screen">
+                <div class="ScreenModal">
+                    <h3>Escolha o jogo</h3>
+                    <br>
+                    <ul class="ListContainer">
+                        <li><a href="https://github.com/Phrojekt" id="game1">Forca</a></li>
+                        <li><a href="#" id="game2">Adivinhação</a></li>
+                        <li><a href="#" id="game3">Hunter-Man</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="Author">
            <a href="https://github.com/Phrojekt?tab=overview&from=2023-02-01&to=2023-02-20">PHROJEKT</a>
@@ -40,7 +52,7 @@
             <div class="Button_A"></div>
         </div>
 
-        <button id="btn-open-modal">Select</button>
+        <button id="btn-open-modal" onclick="Modal.open()">Select</button>
         <button id="btn-save">Save</button>
     </div>
 </div>
