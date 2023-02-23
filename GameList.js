@@ -1,6 +1,6 @@
 const modal = document.querySelector('.ScreenModal');
 
-const Modal = () => {
+const ScreenModal_ON = () => {
 
     const selectedItem = document.getElementById('game1');
 
@@ -8,10 +8,9 @@ const Modal = () => {
         modal.classList.remove('active')
         const selected = document.querySelector('.selected')
         selected.classList.remove('selected');
-        
+
     } else {
         modal.classList.add('active')
         selectedItem.classList.add('selected');
     }
-
 }
