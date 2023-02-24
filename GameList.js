@@ -1,4 +1,6 @@
 const modal = document.querySelector('.ScreenModal');
+const openGuessModal = document.querySelector('#game1');
+const GuessModal = document.querySelector('.game1Modal');
 
 const ScreenModal_ON = () => {
 
@@ -12,5 +14,12 @@ const ScreenModal_ON = () => {
     } else {
         modal.classList.add('active')
         selectedItem.classList.add('selected');
+        GuessModal.classList.remove('active');
     }
 }
+
+openGuessModal.addEventListener('click', function(event) {
+  event.preventDefault();
+  GuessModal.classList.add('active');
+  ScreenModal_ON();
+});

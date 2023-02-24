@@ -103,7 +103,6 @@ li a.selected {
     background: rgba(139,195,74,1);
     opacity: 1;
     position: absolute;
-    padding: 10px;
     top: 20px;
     left: 16px;
     border-bottom-left-radius: 20px;
@@ -118,6 +117,7 @@ li a.selected {
 .ScreenModal.active {
     display: block;
     opacity: 1;
+    padding: 10px;
     z-index: 99;
 }
 
@@ -283,19 +283,6 @@ li a.selected {
 #btn-open-modal:hover, #btn-save:hover {
     cursor: pointer;
 }
-
-// ---------- MODAL 
-
-
-.game1Modal {
-    display: none;
-}
-
-.game1Modal.active {
-    display: block;
-    z-index: 99;
-}
-
 @media (min-width: 768px) {
 
     .FirstContainer {

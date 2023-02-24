@@ -1,0 +1,31 @@
+.game1Modal {
+    display: none;
+    width: 232px;
+    height: 100%;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.game1Modal.active {
+    display: block;
+    z-index: 98;
+}
+
+.Guess_Boxs {
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.FirstBox, .SecondBox, .ThirdBox {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(34,34,34,1);
+}
